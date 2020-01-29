@@ -1,6 +1,6 @@
 function h_numerical = RKSolver(x_lower, x_upper, x_steps, dograph)
 %   Rung Kutta Solver for Lane Emden Equations
-% Neeraj Madan Quantitative Coder
+
 
 x0 = x_lower;                   %Lower Bound of interval
 xn = x_upper;                   %End of Interval on value line x
